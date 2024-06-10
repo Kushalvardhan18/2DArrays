@@ -12,7 +12,7 @@ public class SpiralMatrix {
             for (int i =startRow+1;i<=endRow;i++){
                 if (startRow == endRow){
                     break;
-                } 
+                }
                 System.out.print(matrix[i][endCol]+ " ");
             }
             //bottom
