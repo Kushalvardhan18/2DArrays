@@ -21,8 +21,9 @@ public class DiagonalSum {
             }
 
             System.out.println("The sum of primary diagonal : " + priSum);
-            System.out.print("The sum of secondary diagonal : " + secSum);
+            System.out.println("The sum of secondary diagonal : " + secSum);
         }
+        System.out.println("Total sum of diagonals is : "+ (priSum+secSum));
     }
 
     public static void main(String[] args) {
