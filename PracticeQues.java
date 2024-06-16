@@ -24,7 +24,9 @@ public class PracticeQues {
             System.out.println(sum);
         }
     }
-
+    public static void transposeMatrix(int nums[][]){
+        
+    }
     public static void main(String[] args) {
         int[][] nums = {{4, 7, 8}, {8, 8, 7}};
         int[][] num = { {1,4,9},{11,4,3},{2,2,3} };
