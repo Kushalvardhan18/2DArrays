@@ -24,13 +24,30 @@ public class PracticeQues {
             System.out.println(sum);
         }
     }
-    public static void transposeMatrix(int nums[][]){
 
+    public static void transposeMatrix(int nums[][]) {
+        int n = nums.length;
+        int m = nums[0].length;
+        int[][] matrix = new int[m][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                matrix[j][i] = nums[i][j];
+            }
+        }
+//
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
+
     public static void main(String[] args) {
         int[][] nums = {{4, 7, 8}, {8, 8, 7}};
-        int[][] num = { {1,4,9},{11,4,3},{2,2,3} };
-        occurenceOfNumber(nums, 7);
-        printSum(num);
+        int[][] num = {{1, 4, 9}, {11, 4, 3}, {2, 2, 3}};
+//        occurenceOfNumber(nums, 7);
+//        printSum(num);
+        transposeMatrix(nums);
     }
 }
