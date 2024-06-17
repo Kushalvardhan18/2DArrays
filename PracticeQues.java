@@ -25,7 +25,7 @@ public class PracticeQues {
         }
     }
     public static void transposeMatrix(int nums[][]){
-        
+
     }
     public static void main(String[] args) {
         int[][] nums = {{4, 7, 8}, {8, 8, 7}};
