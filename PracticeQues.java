@@ -41,6 +41,15 @@ public class PracticeQues {
             }
             System.out.println();
         }
+
+//        int [][] transpose= new int[m][n];
+//        for(int i =0;i<n;i++){
+//            for(int j =0;j<m;j++){
+//                transpose[j][i] = nums[i][j];
+//                System.out.print(transpose[j][i]+" ");
+//            }
+//            System.out.println();
+//        }
     }
 
     public static void main(String[] args) {
